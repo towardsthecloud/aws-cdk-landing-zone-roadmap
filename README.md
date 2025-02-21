@@ -6,7 +6,7 @@
 
 # Introduction
 
-👋 If you came here from our landing page, you're in the right place! View our detailed roadmap here: [AWS CDK Landing Zone Roadmap](https://github.com/orgs/towards-the-cloud/projects/1)
+👋 If you came here from our landing page, you're in the right place! View our detailed roadmap here: [AWS CDK Landing Zone Roadmap](https://github.com/orgs/towardsthecloud/projects/1)
 
 If you found this via GitHub or another source, then please visit our [landing page](https://towardsthecloud.com/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
 
@@ -95,4 +95,4 @@ A: Security and operational stability are our primary focus. We can't provide sp
 A: Visit our [landing page](https://towardsthecloud.com/aws-landing-zone) for more information about this product.
 
 **Q: How can I request a feature be added to the roadmap?**
-A: Existing customers can submit feature requests through our [GitHub issues](https://github.com/towards-the-cloud/aws-cdk-landing-zone-roadmap/issues).
+A: Existing customers can submit feature requests through our [GitHub issues](https://github.com/towardsthecloud/aws-cdk-landing-zone-roadmap/issues).
