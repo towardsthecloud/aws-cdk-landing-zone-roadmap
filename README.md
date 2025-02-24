@@ -2,13 +2,13 @@
 
 # AWS CDK Landing Zone Roadmap
 
-> This is the public roadmap for the custom build [AWS CDK Landing Zone solution](https://cdklandingzone.com) provided by [Towards the Cloud](https://towardsthecloud.com).
+> This is the public roadmap page for the [AWS CDK Landing Zone solution](https://cdklandingzone.com) build by [Towards the Cloud](https://github.com/towardsthecloud).
 
 # Introduction
 
-👋 If you came here from our landing page, you're in the right place! View our detailed roadmap here: [AWS CDK Landing Zone Roadmap](https://github.com/orgs/towardsthecloud/projects/1)
+If you came here from our landing page, then you're in the right place! [View our Roadmap](https://github.com/orgs/towardsthecloud/projects/1)
 
-If you found this via GitHub or another source, then please visit our [landing page](https://towardsthecloud.com/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
+If you found this via GitHub or another source, then please visit the [landing page on our website](https://towardsthecloud.com/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
 
 # What is the AWS CDK Landing Zone?
 
@@ -80,9 +80,11 @@ To see how, here’s a list of the features that are **already included** in our
 # FAQ
 
 **Q: Why did you create this?**
+
 A: To provide transparency to clients about upcoming features and enable their participation in shaping the AWS CDK Landing Zone future. Clients with active subscriptions automatically receive new features as they're released.
 
 **Q: Why are there no dates on your roadmap?**
+
 A: Security and operational stability are our primary focus. We can't provide specific target dates as the roadmap is subject to change, and issues don't guarantee feature implementation as proposed.
 
 **Q: What do the roadmap categories mean?**
@@ -92,7 +94,9 @@ A: Security and operational stability are our primary focus. We can't provide sp
 - **Researching**: In the design and planning phase
 
 **Q: How can I provide feedback or ask for more information?**
+
 A: Visit our [landing page](https://towardsthecloud.com/aws-landing-zone) for more information about this product.
 
 **Q: How can I request a feature be added to the roadmap?**
-A: Existing customers can submit feature requests through our [GitHub issues](https://github.com/towardsthecloud/aws-cdk-landing-zone-roadmap/issues).
+
+A: Only existing customers can submit feature requests through our [GitHub issues](https://github.com/towardsthecloud/aws-cdk-landing-zone-roadmap/issues).
