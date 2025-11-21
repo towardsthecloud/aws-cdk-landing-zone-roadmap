@@ -8,7 +8,7 @@
 
 If you came here from our landing page, then you're in the right place! [View our Roadmap](https://github.com/orgs/towardsthecloud/projects/1)
 
-If you found this via GitHub or another source, then please visit the [landing page on our website](https://towardsthecloud.com/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
+If you found this via GitHub or another source, then please visit the [landing page on our website](https://towardsthecloud.com/services/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
 
 # What is the AWS CDK Landing Zone?
 
@@ -104,7 +104,7 @@ A: Security and operational stability are our primary focus. We can't provide sp
 
 **Q: How can I provide feedback or ask for more information?**
 
-A: Visit our [landing page](https://towardsthecloud.com/aws-landing-zone) for more information about this product.
+A: Visit our [landing page](https://towardsthecloud.com/services/aws-landing-zone) for more information about this product.
 
 **Q: How can I request a feature be added to the roadmap?**
 
