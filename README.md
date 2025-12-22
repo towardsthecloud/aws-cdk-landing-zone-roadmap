@@ -2,35 +2,36 @@
 
 # AWS CDK Landing Zone Roadmap
 
-> This is the public roadmap page for the [AWS CDK Landing Zone solution](https://cdklandingzone.com) build by [Towards the Cloud](https://github.com/towardsthecloud).
+> This is the public roadmap for the AWS CDK Landing Zone product, built and deployed by [Towards the Cloud](https://github.com/towardsthecloud).
 
-# Introduction
-
-If you came here from our landing page, then you're in the right place! [View our Roadmap](https://github.com/orgs/towardsthecloud/projects/1)
-
-If you found this via GitHub or another source, then please visit the [landing page on our website](https://towardsthecloud.com/services/aws-landing-zone) to find out more about our custom AWS Landing Zone solution or... read this section below ⤵︎
+- Product overview: https://towardsthecloud.com/services/aws-landing-zone
+- Buy via AWS Marketplace (Professional Services): https://aws.amazon.com/marketplace/pp/prodview-zejyre7rky6cq
+- Roadmap project board: https://github.com/orgs/towardsthecloud/projects/1
 
 # What is the AWS CDK Landing Zone?
 
-Launch faster on AWS and become fully compliant from day one! Our solution is designed for B2B startups and growing businesses that want to focus on building and deploying their products on AWS instead of managing multi-account complexity.
+A production-ready, multi-account AWS foundation (security, logging, guardrails, and account provisioning) delivered entirely as Infrastructure as Code using AWS CDK TypeScript. Built for B2B startups and growing teams who need to become audit-ready fast while maintaining full control over their infrastructure.
 
-## The Hidden Cost of AWS Simplicity
+# Why Not AWS Control Tower?
 
-While AWS makes it super easy to get started, that initial simplicity can lead to significant challenges:
+AWS Control Tower is a common starting point, but teams quickly run into limitations:
 
-- **Limited isolation and increased blast radius**: Without proper account separation, errors in one workload can affect all others
-- **Scalability issues**: Single-account approaches don't scale well with organizational growth
-- **Complex cost management**: Tracking costs becomes increasingly difficult as resources multiply
-- **Security and compliance challenges**: Implementing distinct security policies becomes complex
-- **IAM configuration complexity**: Managing access control requires intricate policies, increasing security risks
+| **Challenge**           | **AWS Control Tower**                                                        | **AWS CDK Landing Zone**                                              |
+| ----------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Cost**                | High base cost—enables many services by default whether you need them or not | Pay only for what you use—enable services selectively                 |
+| **Customization**       | Limited—you wait for AWS to support new features and configurations          | Full control—customize anything immediately using native AWS CDK      |
+| **Management**          | ClickOps via AWS Console—manual, error-prone, hard to audit                  | GitOps-first—all changes through code, fully auditable and repeatable |
+| **Drift & Consistency** | Manual drift detection, difficult to enforce desired state                   | Automated drift detection with Infrastructure as Code guarantees      |
+| **Vendor Lock-in**      | Tied to AWS's implementation decisions and timeline                          | You own the code—extend, modify, or migrate as needed                 |
 
-## Our Solution
+**Bottom line:** Control Tower trades flexibility for convenience. If you need a compliant AWS foundation that you actually control, the AWS CDK Landing Zone gives you enterprise-grade security without the rigidity or hidden costs.
 
-The AWS CDK Landing Zone from Towards the Cloud delivers:
+# Key Benefits
 
 ### 1. Full Compliance Out of the Box
-- **100%** score on CIS AWS Foundation Benchmark
-- **96%** rating on AWS foundational security best practices
+- Multi-account architecture with security controls and compliance guardrails from day one
+- Achieve **100%** on CIS AWS Foundation Benchmark and **96%** on AWS Foundational Security Best Practices
+- These benchmarks map directly to SOC 2, HIPAA, and PCI-DSS controls, cutting months from your compliance timeline
 
 ### 2. Secure Guardrails
 - Pre-configured security policies based on AWS's best practices
@@ -38,8 +39,8 @@ The AWS CDK Landing Zone from Towards the Cloud delivers:
 - Protection for both business and budget
 
 ### 3. Everything via Infrastructure as Code
-- Written completely in AWS CDK Typescript
-- Utilizes GitHub actions to quickly deploy on AWS
+- Written completely in AWS CDK TypeScript
+- GitOps-first deployments (for example via GitHub Actions)
 
 ### 4. Single Sign-On Integration
 - Sets up AWS SSO (Identity Center) with external identity providers
@@ -47,10 +48,19 @@ The AWS CDK Landing Zone from Towards the Cloud delivers:
 - Provides centralized identity management across all AWS accounts
 
 ### 5. Batteries included
-- Uses CloudFormation stacksets to automatically provision the AWS accounts in the organization
-- Multi-region is supported for the stacksets
+- Uses CloudFormation StackSets to automatically provision the AWS accounts in the organization
+- Multi-region is supported for the StackSets
 - Adds observability tools including notifications to keep you in control
 - Bootstraps your AWS workload accounts so you can immediately start developing on it.
+
+## Delivery & Maintenance Options
+
+This Landing Zone is deployed by Towards the Cloud as a productized implementation (also available via AWS Marketplace). After handover, you choose how it’s operated:
+
+- **Self-managed**: Your team owns day-to-day operations and upgrades. We provide support for questions about the architecture, code, and operational guidance.
+- **Managed service**: We maintain, update, and continuously improve the Landing Zone as new features ship.
+
+Compare what’s included in each option and see pricing: https://towardsthecloud.com/pricing
 
 # Features
 
