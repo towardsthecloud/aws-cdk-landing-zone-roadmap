@@ -1,18 +1,17 @@
-# [![AWS CDK Landing Zone Roadmap header](./images/gh-header-image.png)](https://cdklandingzone.com)
+[![AWS CDK Landing Zone Roadmap header](./images/gh-header-image.png)](https://cdklandingzone.com)
 
 # AWS CDK Landing Zone Roadmap
 
 > This is the public roadmap for the AWS CDK Landing Zone product, built and deployed by [Towards the Cloud](https://github.com/towardsthecloud).
+>
+> - [Product overview](https://towardsthecloud.com/services/aws-landing-zone)
+> - [Roadmap project board](https://github.com/orgs/towardsthecloud/projects/1)
 
-- Product overview: https://towardsthecloud.com/services/aws-landing-zone
-- Buy via AWS Marketplace (Professional Services): https://aws.amazon.com/marketplace/pp/prodview-zejyre7rky6cq
-- Roadmap project board: https://github.com/orgs/towardsthecloud/projects/1
-
-# What is the AWS CDK Landing Zone?
+## What is the AWS CDK Landing Zone?
 
 A production-ready, multi-account AWS foundation (security, logging, guardrails, and account provisioning) delivered entirely as Infrastructure as Code using AWS CDK TypeScript. Built for B2B startups and growing teams who need to become audit-ready fast while maintaining full control over their infrastructure.
 
-# Why Not AWS Control Tower?
+## Why Not AWS Control Tower?
 
 AWS Control Tower is a common starting point, but teams quickly run into limitations:
 
@@ -26,7 +25,7 @@ AWS Control Tower is a common starting point, but teams quickly run into limitat
 
 **Bottom line:** Control Tower trades flexibility for convenience. If you need a compliant AWS foundation that you actually control, the AWS CDK Landing Zone gives you enterprise-grade security without the rigidity or hidden costs.
 
-# Key Benefits
+## Benefits of using the CDK Landing Zone to provision and manage your AWS Accounts?
 
 ### 1. Full Compliance Out of the Box
 - Multi-account architecture with security controls and compliance guardrails from day one
@@ -53,16 +52,7 @@ AWS Control Tower is a common starting point, but teams quickly run into limitat
 - Adds observability tools including notifications to keep you in control
 - Bootstraps your AWS workload accounts so you can immediately start developing on it.
 
-## Delivery & Maintenance Options
-
-This Landing Zone is deployed by Towards the Cloud as a productized implementation (also available via AWS Marketplace). After handover, you choose how it’s operated:
-
-- **Self-managed**: Your team owns day-to-day operations and upgrades. We provide support for questions about the architecture, code, and operational guidance.
-- **Managed service**: We maintain, update, and continuously improve the Landing Zone as new features ship.
-
-Compare what’s included in each option and see pricing: https://towardsthecloud.com/pricing
-
-# Features
+## AWS CDK Landing Zone Features
 
 Our solution goes beyond basic AWS Control Tower or AWS OrgFormation implementations. It provides the right security, observability and bootstraps to make sure you're ready to instantly onboard your applications and products.
 
@@ -96,7 +86,16 @@ To see how, here's a list of the features that are **already included** in our L
 | **Detect StackSet Drift**            | Regularly checks for drift in CloudFormation StackSets using a scheduled Lambda function, maintaining the desired configuration state across your account.                                                                                                                                       |
 | **Delete Default VPC**               | Removes the default VPC in newly created regions using a custom resource and Lambda, helping maintain a clean and secure AWS environment by eliminating unused resources.                                                                                                                        |
 
-# FAQ
+## Delivery & Maintenance Options
+
+This Landing Zone is deployed by Towards the Cloud as a productized implementation (also available via AWS Marketplace). After handover, you choose how it’s operated:
+
+- **Self-managed**: Your team owns day-to-day operations and upgrades. We provide support for questions about the architecture, code, and operational guidance.
+- **Managed service**: We maintain, update, and continuously improve the Landing Zone as new features ship.
+
+Compare what’s included in each option and see pricing: https://towardsthecloud.com/pricing
+
+## FAQ
 
 **Q: Why did you create this?**
 
