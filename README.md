@@ -92,7 +92,7 @@ Here's everything that ships in the AWS CDK Landing Zone today:
 
 ## Delivery & Maintenance Options
 
-Towards the Cloud deploys the Landing Zone for you as a productized implementation (also available on the AWS Marketplace). After handover, you choose how it's operated:
+Towards the Cloud deploys the Landing Zone for you as a productized implementation (also available on the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-zejyre7rky6cq)). After handover, you choose how it's operated:
 
 - **Self-managed**: Your team owns day-to-day operations and upgrades. We stay available for questions about the architecture, code, and operations.
 - **Managed service**: We maintain, update, and keep improving the Landing Zone as new features ship.
