@@ -4,7 +4,7 @@
 
 > This is the public roadmap for the AWS CDK Landing Zone product, built and deployed by [Towards the Cloud](https://github.com/towardsthecloud).
 >
-> - [Product overview](https://towardsthecloud.com/services/aws-landing-zone)
+> - [Product overview](https://towardsthecloud.com/services/aws-cdk-landing-zone)
 > - [Roadmap project board](https://github.com/orgs/towardsthecloud/projects/1)
 
 ## What is the AWS CDK Landing Zone?
@@ -119,7 +119,7 @@ A: Security and operational stability are our primary focus. We can't provide sp
 
 **Q: How can I provide feedback or ask for more information?**
 
-A: Visit our [landing page](https://towardsthecloud.com/services/aws-landing-zone) for more information about this product.
+A: Visit our [landing page](https://towardsthecloud.com/services/aws-cdk-landing-zone) for more information about this product.
 
 **Q: How can I request a feature be added to the roadmap?**
 
