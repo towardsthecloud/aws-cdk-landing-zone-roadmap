@@ -25,28 +25,33 @@ AWS Control Tower is a common starting point, but teams quickly run into limitat
 
 **Bottom line:** Control Tower trades flexibility for convenience. If you need a compliant AWS foundation that you actually control, the AWS CDK Landing Zone gives you enterprise-grade security without the rigidity or hidden costs.
 
-## Benefits of using the CDK Landing Zone to provision and manage your AWS Accounts?
+## Benefits of using the AWS CDK Landing Zone to provision and manage your AWS Accounts?
 
 ### 1. Full Compliance Out of the Box
+
 - Multi-account architecture with security controls and compliance guardrails from day one
 - Achieve **100%** on CIS AWS Foundation Benchmark and **96%** on AWS Foundational Security Best Practices
 - These benchmarks map directly to SOC 2, HIPAA, and PCI-DSS controls, cutting months from your compliance timeline
 
 ### 2. Secure Guardrails
+
 - Pre-configured security policies based on AWS's best practices
 - Automatic blocking of risky actions
 - Protection for both business and budget
 
 ### 3. Everything via Infrastructure as Code
+
 - Written completely in AWS CDK TypeScript
 - GitOps-first deployments (for example via GitHub Actions)
 
 ### 4. Single Sign-On Integration
+
 - Sets up AWS SSO (Identity Center) with external identity providers
 - Supports integration with Entra ID, JumpCloud, or AWS Identity Provider
 - Provides centralized identity management across all AWS accounts
 
 ### 5. Batteries included
+
 - Uses CloudFormation StackSets to automatically provision the AWS accounts in the organization
 - Multi-region is supported for the StackSets
 - Adds observability tools including notifications to keep you in control
@@ -106,6 +111,7 @@ A: To provide transparency to clients about upcoming features and enable their p
 A: Security and operational stability are our primary focus. We can't provide specific target dates as the roadmap is subject to change, and issues don't guarantee feature implementation as proposed.
 
 **Q: What do the roadmap categories mean?**
+
 - **Just shipped**: Recently released features
 - **Coming soon**: Expected within a couple of months
 - **We're working on it**: In progress but further out
